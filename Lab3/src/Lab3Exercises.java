@@ -5,7 +5,7 @@ public class Lab3Exercises {
 		JFrame myFrame = new JFrame("Hello, Josian Velez!");
 		myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		myFrame.setLocationRelativeTo(null);//sets it close to no component placing it centralized 
-		myFrame.setSize(200, 200);
+		myFrame.setSize(300, 200);
         MyPanelClass myPanel = new MyPanelClass();
         myFrame.getContentPane().add(myPanel);
 		myFrame.setVisible(true);
